@@ -55,21 +55,6 @@ fieldset:disabled a.btn {
 }
 
 
-//
-// Alternate buttons
-//
-
-@each $color, $value in $theme-colors {
-  .btn-#{$color} {
-    @include button-variant($value, $value);
-  }
-}
-
-@each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    @include button-outline-variant($value);
-  }
-}
 
 
 //
@@ -80,19 +65,19 @@ fieldset:disabled a.btn {
 .btn-link {
   font-weight: $font-weight-normal;
   color: $link-color;
-  background-color: transparent;
+  background-color: #003680;
 
   @include hover {
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
-    background-color: transparent;
-    border-color: transparent;
+    background-color: #003680;
+    border-color: #003680;
   }
 
   &:focus,
   &.focus {
     text-decoration: $link-hover-decoration;
-    border-color: transparent;
+    border-color: #003680;
     box-shadow: none;
   }
 
