@@ -699,13 +699,13 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .cta a:hover span {
-  background: #4f45e3;
+  background: #003680;
   color: #fff; }
 
 .cta a.active {
   border-bottom: none; }
   .cta a.active > span {
-    background-color: #1c4b82;
+    background-color: #003680;
     color: #fff; }
 
 .section-sub-title {
@@ -984,7 +984,7 @@ h1, h2, h3, h4, h5,
   color: #003680; }
 
 .custom-icon-wrap.custom-icon-light .custom-icon-inner {
-  background: #615dc2;
+  background: #003680;
   width: 45px;
   height: 45px; }
 
